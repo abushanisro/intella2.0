@@ -53,6 +53,9 @@
   --surface-color: #252525;
   --contrast-color: #ffffff;
 }
+* {
+  transition: none !important;
+}
 
 /* Smooth scroll */
 :root {
