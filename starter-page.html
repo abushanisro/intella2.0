@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partner Slider</title>
+  <style>
+    .slider-container {
+      overflow: hidden;
+      width: 100%;
+      background: #f8f8f8;
+      padding: 20px 0;
+    }
+
+    .slider-track {
+      display: flex;
+      width: calc(250px * 24); /* 12 images duplicated = 24 */
+      animation: scroll 30s linear infinite;
+    }
+
+    .slider-track img {
+      width: 250px;
+      height: auto;
+      margin: 0 20px;
+      object-fit: contain;
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+ 
+
+</body>
+</html>
